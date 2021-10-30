@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>YuBin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="css/foo.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="js/index.js"></script> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+    body,h1,h2,h3,p,div,span,font,nav,button,a{
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    b{
+      color: rgb(77, 63, 46);
+    }
+        ul,li{list-style:none; background-repeat: no-repeat;}
+        .slide{height:550px;overflow:hidden; width: 400px; display: inline-block;}
+        .slide ul{width:calc(100% * 16);display:flex;animation:slide 32s infinite;}
+        .slide li{width:calc(100% / 16);height:580px; background-size: contain; vertical-align: middle; overflow: auto;}
+        .slide li:nth-child(1){background-image: url(img/game_1.png);}
+        .slide li:nth-child(2){background-image: url(img/game_2.png);}
+        .slide li:nth-child(3){background-image: url(img/game_3.png);}
+        .slide li:nth-child(4){background-image: url(img/game_4.png);}
+        .slide li:nth-child(5){background-image: url(img/game_5.png);}
+        .slide li:nth-child(6){background-image: url(img/game_6.png);}
+        .slide li:nth-child(7){background-image: url(img/game_7.png);}
+        .slide li:nth-child(8){background-image: url(img/game_8.png);}
+        .slide li:nth-child(9){background-image: url(img/game_9.png);}
+        .slide li:nth-child(10){background-image: url(img/game_10.png);}
+        .slide li:nth-child(11){background-image: url(img/game_11.png);}
+        .slide li:nth-child(12){background-image: url(img/game_12.png);}
+        .slide li:nth-child(13){background-image: url(img/game_13.png);}
+        .slide li:nth-child(14){background-image: url(img/game_14.png);}
+        .slide li:nth-child(15){background-image: url(img/game_15.png);}
+        .slide li:nth-child(16){background-image: url(img/game_16.png);}
+       @keyframes slide {
+         0% {margin-left:0;}
+         6.25%{margin-left: -100%;}
+         12.5% {margin-left:-200%;} 
+         18.75% {margin-left:-300%;} 
+         25% {margin-left:-400%;} 
+         31.25% {margin-left:-500%;}
+         37.5% {margin-left:-600%;}
+         43.75% {margin-left:-700%;}
+         50% {margin-left:-800%;}
+         56.25% {margin-left:-900%;}
+         63.5% {margin-left:-1000%;}
+         69.75% {margin-left:-1100%;}
+         76%{margin-left: -1200%;}
+         82.25%{margin-left: -1300%;}
+         88.5% {margin-left:-1400%;}
+         94.75%{margin-left: -1500%;}
+         100% {margin-left:0%;}
+        }
+
+
+  </style>
+
+
+
+</head>
+
+
+
+<body>
+
+  <header>
+    <div class="header_space"></div>
+    <div class="header_title"><h2>PYB's Portfolio</h2></div>
+    <div class="header_title-menu"></div>
+    <div class="header_menu">
+
+      <a href="#article_1" class="nav"><nav>About me</nav></a>
+      <a href="#article_2" class="nav"><nav>Skills</nav></a>
+      <a href="#article_3" class="nav"><nav>Projects</nav></a>
+      <a href="#article_4" class="nav"><nav>Contact</nav></a>
+        
+        
+        
+    </div>   
+  </header>
+
+
+<div class="main">
+
+  
+  <div id='stars'></div>
+  
+  <div id='stars2'></div>
+  
+  <div id='stars3'></div>
+</div>
+<div class="main_space_1"></div>
+<div class="main_text">
+  <div class="space_br5"></div>
+  <h1>안녕하세요. 저는 열린 사고방식과 넓은 수용력, 배움의 의지가 넘치는 신입개발자 박유빈입니다.</h1><br>
+  <div class="main_text_space_1"></div>
+  <div class="space_br5"></div>
+  <a class="hologram-btn" href="#article_1">More</a>
+  <div class="main_text_space_2"></div>
+
+</div>
+
+<div class="article_div">
+  <article class="article_1 article" id="article_1" data-aos="fade-right">
+    <div class="space_br5"></div><br>
+    <font size="6">About Me</font><br>
+    <div class="space_br5"></div>
+    <div class="aboutMe_float"></div>
+    <div class="aboutMe_boxes">
+      <div class="aboutMe_boxes_left">
+        <div class="aboutMe_box">
+          <img src="img/premium-icon-comment-user-5070428.png" alt="" class="aboutMe_icon">
+          <div class="aboutMe_icon_text"></div>
+          <font size="4">이름   박유빈</font>
+      </div>
+      <br>
+      <div class="aboutMe_box">
+          <img src="img/premium-icon-call-incoming-5070414.png" alt="" class="aboutMe_icon">
+          <div class="aboutMe_icon_text"></div>
+          <font size="4">연락처   010.6899.6595</font>
+      </div>
+      <br>
+      <div class="aboutMe_box">
+          <img src="img/envelope.png" alt="" class="aboutMe_icon">
+          <div class="aboutMe_icon_text"></div>
+          <font size="4">이메일   hazing120@gmail.com</font>
+      </div>
+      
+      </div>
+
+      <div class="aboutMe_right_left"></div>
+      <div class="aboutMe_boxes_right">
+        <div class="aboutMe_box">
+          <img src="img/premium-icon-calendar-939128.png" alt="" class="aboutMe_icon">
+          <div class="aboutMe_icon_text"></div>
+          <font size="4">생년월일   00.06.05</font>
+      </div>
+      <br>
+      <div class="aboutMe_box">
+          <img src="img/premium-icon-map-marker-5073834.png" alt="" class="aboutMe_icon">
+          <div class="aboutMe_icon_text"></div>
+          <font size="4">주소지   광주광역시</font>
+      </div>
+      <br>
+      <div class="aboutMe_box"></div>
+      </div>
+      <div class="aboutMe_box">
+        <img src="img/open-book.png" alt="" class="aboutMe_icon">
+        <div class="aboutMe_icon_text"></div>
+        <font size="4">교육   한국방송통신대학교 컴퓨터과학과 재학(2020.07~)</font>
+        <br>
+        <div class="aboutMe_icon_text_last"></div>
+        <font size="4">스마트인재캠퍼스 인공지능 실무인재 양성과정 수료(2021.05~2021.10)</font>
+    </div>     
+        
+    </div>
+    
+  </article>
+  <div class="space_article"></div>
+  <article class="article_2 article" id="article_2" data-aos="fade-left">
+    <div class="space_br5"></div><br>
+    <font size="6">Skills</font>
+    <div class="space_br5"></div><br>
+    <div class="skills_line"></div>
+    
+    <div class="skills_front">
+        <font size="6">Frontend</font>
+        <br><br><br>
+        <div class="skills_img-div">
+            <img src="img/front.png" alt="" class="skills_front_img">
+        </div>
+        
+
+    </div>
+    <div class="skills_float"></div>
+    <div class="skills_back">
+        <font size="6">Backend</font>
+        <br><br><br>
+        <div class="skills_img-div">
+            <img src="img/back.png" alt="" class="skills_back_img">
+        </div>
+        <br><br><br>
+        <font size="6">ML/DL</font>
+        <br><br><br>
+        <div class="skills_img-div">
+            <img src="img/mldl.png" alt="" class="skills_mldl_img">
+        </div>
+    </div>
+    <div class="skills_mldl">
+
+    </div>
+    <div class="space_br5"></div><br><div class="space_br5" id="article_3"></div><br>
+  </article>
+  <div class="space_article" ></div>
+  <article class="article_3 article"   data-aos="flip-up">
+    <div class="space_br5" ></div><br>
+    <font size="6" style="color: #1b1b1a;">Projects</font>
+    <div class="space_br5"></div><br>
+    <div class="project_1">
+      <div class="project_space"></div>
+      <div class="slide">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        
+      </div>
+      <div class="project_space">
+        
+      </div>
+
+      <div class="project_1_text" >
+        <h3>4인 프로젝트, 게임 내의 대회 개최 어플(21.07.02~21.07.16)</h3>
+        <div class="project_1_text_desc" style="text-align: left;">
+        
+          <b>개발 환경</b> MySQL NodeJS AndroidStudio
+          <br><br>
+          <div class="project_1_text_goal">
+            <b>1. 기획/설계</b><br>
+            <b>[목표 기능]</b> <br>
+            게임대회 팀 구성 및 조회, 팀 랭킹 조회 및 커뮤니티 구성<br>
+
+            <b>[DATABASE설계]</b><br>
+            ERD를 바탕으로 테이블을 설계, 요구사항 분석서를 통해 구체적인 테이블과 컬럼을 생성하였습니다. <br>
+
+            <b>2. 서버 구축/연동</b><br>
+            <b>[서버 구축]</b><br>
+            NodeJS를 사용하여 각 요청에 맞는 ROUTER를 생성하였습니다.<br>
+
+            DB에 데이터를 전달, 삭제 및 수정하기 위해 각 상황에 맞는 SQL문을 작성하였습니다. <br>
+
+            <b>[Android,Database 연동]</b><br>
+            Android 요청을 통해 DB의 정보 조회 및 수정,추가 후 다시 원하는 정보 조회 후 Android로 전송하였습니다.<br>
+          
+            <b>3. 애플리케이션 구현/검증</b><br>
+            <b>[Android]</b> <br>
+            팀정보 페이지를 제외한 부분 구현, 같은 팀을 구성하고 팀 별 채팅방 이용, 대회 신청, 대진표 확인, 랭킹, 여러 커뮤니티를 구현하였습니다.<br>
+            <b>[검증]</b><br>
+            FTP기능에 대한 이해가 적어 팀 로고를 사용자 커스텀으로 지정하는데에 어려움이 있어, 앱에서 제공하는 로고를 선택하도록 제한하였습니다.
+            
+
+          </div>
+          <!-- <div class="project_1_text_develope">
+          가장 기본적인 데이터베이스 설계와 구축, 서버 연동, Android 기능 구현을 주로 담당하였습니다.
+          그중에서도 가장 주로 다루게 된것은 Android-Studio였고 팀정보 페이지의 크롤링을 제외한 부분을 구현하였습니다.
+          안드로이드의 volley 라이브러리를 통해 NodeJS와 JSON객체를 통해 연동하였고 DB의 정보 또한 NodeJS에서 전달하였습니다.
+          로그인은 PreferenceManager를 통해 세션역할을 대신하였고, DTO와 Adapter를 사용하여 대부분의 게시판,
+          랭킹, 채팅, 마이페이지, 게시글 별 댓글 등을 구현하였으며 Adapter에서 받은 정보에 따라 xml를 구분하여 넣었습니다.
+          메인페이지에서는 Fragment, 게시판 별 주요 글과 가장 높은 랭킹을 바로 확인할 수 있습니다.
+          마이페이지에서는 중첩 Fragment를 활용하였고 채팅창은 팀 별로 이용할 수 있으며
+          Thread를 사용하여 지속적으로 채팅을 주고 받을 수 있도록 구현하였습니다. 
+          대진표의 경우 random seed를 활용해 한 대회 당 하나의 랜덤값을 가지게 하여 매칭시 선착순이나 정해진
+          대회 별로 같은 랜덤값을 사용하지 않도록 하였습니다. 조별 대진표를 확인할 경우 승패에 따라 text의 배경을
+          drawble로 불러와 변경, 조를 클릭하여 확인할 경우 하나의 알고리즘(함수)만 사용하도록 하였습니다.            
+          </div> -->
+        <br>
+          <div class="btn_div">
+            <button class="gradient-btn popup_open" href="#none" value='3'>ERD확인하기</button>
+            <div class="btn_space"></div>
+            <button class="gradient-btn popup_open" href="#none" value="4">유스케이스 확인하기</button>
+            <div class="btn_space"></div>
+            <a class="gradient-btn" href="https://github.com/yyubin/project1_GameEvent">GIT에서 코드 확인하기</a>
+            </div>
+        </div>
+      </div>
+        
+    </div>
+    <div class="space_br5"></div>
+    <div class="space_br5"></div>
+    <div class="project_2">
+      <div class="project_space2"></div>
+      <div class="slide2">
+        <video controls width="600">
+          <source src="img/DAM-IT 시연영상.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="project_space2"></div>
+      <div class="project_1_text">
+        <h3>5인 프로젝트, 오토라벨링 웹서비스(21.09.27~21.10.22)</h3>
+        <div class="project_1_text_desc" style="text-align: left;">
+        
+          <b>개발 환경</b> MySQL NodeJS html css javascript JQuery AJAX
+          <br><br>
+          <div class="project_1_text_goal">
+            <b>1. 기획/설계</b><br>
+            <b>[목표 기능]</b> <br>
+            라벨링 과정을 알고리즘으로 진행시켜주는 웹서비스<br>
+
+            <b>[DATABASE설계]</b><br>
+            ERD를 바탕으로 테이블을 설계, 요구사항 분석서를 통해 구체적인 테이블과 컬럼을 생성하였습니다. <br>
+            [UI/UX설계]<br>
+            요구사항 분석서를 통하여 사용자 친화적인 UI, UX를 구현하였습니다.<br>
+
+            <b>2. 서버 구축/연동</b><br>
+            <b>[서버 구축]</b><br>
+            NodeJS를 사용하여 각 요청에 맞는 ROUTER를 생성하였습니다.<br>
+            DB에 삽입,조회,수정 등을 위한 SQL문을 작성하였습니다.<br>
+
+            <b>[Javascript,NodeJS,Flask 통신]</b><br>
+            Javascript의 정보를 NodeJS서버에 등록, API호출을 통해 FLask로 전송하였습니다.<br>
+          
+            <b>3. 웹서비스 구현/검증</b><br>
+            <b>[웹서비스 구현]</b> <br>
+            Buffer, Multer와 같은 FTP모듈과 라이브러리 활용, 받아온 정보들을 Web에 전송하였습니다.<br>
+            마이페이지나 블로그에는 사용자의 이용을 고려하여 AJAX를 통한 비동기 통신을 구현하였습니다.<br>
+            직접 라벨링을 할 수 있는 canvas기능, 캡쳐 및 이미지 변환등을 구현하였습니다.<br>
+
+            <b>[검증]</b><br>
+            디자인을 진행하는데에 무리가 있다고 느껴 HTML템플릿을 활용하였습니다.<br>
+            딥러닝을 맡은 컴퓨터에서 API호출, 캔버스 작업을 진행했지만 프로젝트 종료 후
+            코드가 일부 소실되었습니다
+            
+
+          </div>
+          
+          <br>
+          <div class="btn_div">
+          <button class="gradient-btn popup_open" href="#none" value='1'>ERD확인하기</button>
+          <div class="btn_space"></div>
+          <button class="gradient-btn popup_open" href="#none" value="2">유스케이스 확인하기</button>
+          <div class="btn_space"></div>
+          <a class="gradient-btn" href="https://github.com/yyubin/project2_DAMIT">GIT에서 코드 확인하기</a>
+          </div>
+
+
+      </div>
+
+
+      <div id="popup_wrap1" class="popup_wrap">
+        <div class="popup-cont01" style="text-align: center;">      
+                <img src="img/ERD.png" alt=""  class="ERD_usecase">
+                <button id="popup_close" class="popup_close gradient-btn">닫기</button>
+          </div>
+        </div>
+        <div id="popup_wrap2" class="popup_wrap">
+          <div class="popup-cont01" style="text-align: center;">      
+                  <img src="img/usecase2.png" alt=""  class="ERD_usecase">
+                  <button id="popup_close" class="popup_close gradient-btn">닫기</button>
+            </div>
+          </div>
+          <div id="popup_wrap3" class="popup_wrap2">
+            <div class="popup-cont01" style="text-align: center;">      
+                    <img src="img/Team_GAME(ERD).png" alt="" class="ERD_usecase">
+                    <button id="popup_close" class="popup_close gradient-btn">닫기</button>
+              </div>
+            </div>
+            <div id="popup_wrap4" class="popup_wrap2">
+              <div class="popup-cont01" style="text-align: center;">      
+                      <img src="img/project1_usecase.png" alt=""  class="ERD_usecase">
+                      <button id="popup_close" class="popup_close gradient-btn">닫기</button>
+                </div>
+              </div>
+        <div id="mask"></div>
+
+
+      <div class="_popup" style="display:none;">
+          <img src="" alt="">
+      </div>
+        
+        <script> 
+        $(document).ready(function(){ 
+        $(".popup_open").click(function(){ 
+          let value = $(this).attr('value');
+          if(value=='1'){
+            $("#popup_wrap1").css("display", "block");   
+          }else if(value=='2'){
+            $("#popup_wrap2").css("display", "block");  
+          }else if(value=='3'){
+            $("#popup_wrap3").css("display", "block"); 
+          }else{
+            $("#popup_wrap4").css("display", "block"); 
+          }
+            $("#mask").css("display", "block");
+        }); 
+        $(".popup_close").click(function(){ 
+        $(".popup_wrap").css("display", "none"); 
+        $(".popup_wrap2").css("display", "none"); 
+        $("#mask").css("display", "none"); 
+        }); 
+        }); 
+        </script>
+
+    </div>
+  </article>
+  <article class="article_4 article "  id="article_4" data-aos="zoom-in">
+    <div class="space_br5"></div><br>
+    <font size="6" style="color: snow;">Contact</font>
+    <div class="space_br5"></div><br>
+    <div class="aboutMe_box">
+      <img src="img/premium-icon-call-incoming-5070414.png" alt="" class="aboutMe_icon">
+      <div class="aboutMe_icon_text"></div>
+      <font size="4">연락처   010.6899.6595</font>
+  </div>
+  <br>
+  <div class="aboutMe_box">
+      <img src="img/envelope.png" alt="" class="aboutMe_icon">
+      <div class="aboutMe_icon_text"></div>
+      <font size="4">이메일   hazing120@gmail.com</font>
+  </div>
+  <br>
+  <div>
+    <img src="img/KakaoTalk_20211030_000237668.jpg" alt="" class="chat_qr">
+    <p class="chat_text">카카오톡 오픈 채팅방입니다.</p>
+  </div>
+  
+  <div class="space_br5"></div>
+  <p class="chat_text">Copyrightⓒ2021 by yubin</p>
+
+</article>
+
+</div>
+
+<script>
+  AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+  });
+
+</script>  
+</body>
+
+</html>

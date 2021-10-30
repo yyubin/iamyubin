@@ -1,0 +1,331 @@
+body{
+  padding-top: 70px;
+	background:#000000;
+  padding: 0;
+  margin: 0;
+}
+
+.main_space_1{
+  height: 350px;
+  width: 100px;
+}
+.main_text{
+  text-align: center;
+}
+h1 {
+font-size: 30px;
+min-width:11px;
+white-space: nowrap;
+margin: 0;
+position: absolute;
+left: 18%;
+color: transparent;
+}
+
+h1::before {
+content: "안녕하세요. 저는 열린 사고방식과 넓은 수용력, 배움의 의지가 넘치는 신입개발자 박유빈입니다.";
+position: absolute;
+top: 50;
+left: 0;
+right: 0;
+
+color: snow;
+overflow: hidden;
+
+animation: typing 5.5s steps(51) infinite;
+}
+.main_text_space_1{
+  height: 300px;
+}
+
+@keyframes typing{
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+header { position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 70px; 
+  background: #1b1b1a; 
+  transition: top 0.2s ease-in-out; 
+  opacity: 100;
+}
+.nav-up{
+  top: -70px;
+}
+.header_title-menu{
+        display: inline-block;
+        width: 50%;
+    }
+
+    .header_menu{
+        display: inline-block;
+        color: snow;
+    }
+    
+    .header_title{
+        display: inline-block;
+        color: snow;
+    }
+    nav{
+        display: inline-block;
+        padding: 20px;
+        color: snow;
+    }
+    .header_space{
+      display: inline-block;
+      width: 10%;
+    }
+
+    .article_div{
+      text-align: center;
+    }
+    .article_1{
+      width: 80%;
+      background-color: #1b1b1a;
+      opacity: 0.81;
+      height: 650px;
+    }
+    .article_2{
+      width: 80%;
+      background-color: #1b1b1a;
+      opacity: 0.81;
+      height: 1300px;
+    }
+    .article_3{
+      width: 100%;
+      background-color: snow;
+      opacity: 0.95;
+      height: 2000px;
+      text-align: center;
+    }
+    .article_4{
+      width: 100%;
+      opacity: 0.81;
+      height: 650px;
+    }
+    .article{
+      display: inline-block;
+
+    }
+    .main_text_space_2{
+      height: 300px;
+    }
+    .aboutMe_icon{
+        width: 40px;
+        vertical-align: middle;
+    }
+    .aboutMe_boxes{
+        text-align: left;
+        display: inline-block;
+    }
+    .aboutMe_float{
+        display: inline-block;
+    }
+    font{
+      color: snow;
+    }
+    .aboutMe_icon_text{
+      display: inline-block;
+      width: 10px;
+    }
+    .aboutMe_icon_text_last{
+      display: inline-block;
+      width: 55px;
+    }
+    .aboutMe_boxes_right{
+      display: inline-block;
+      height: 200px;
+      overflow: auto;
+    }
+    .aboutMe_boxes_left{
+      display: inline-block;
+      height: 200px;
+      overflow: auto;
+    }
+    .aboutMe_right_left{
+      width: 40px;
+      height: 100px;
+      display: inline-block;
+    }
+    .space_br5{
+      height: 80px;
+    }
+    .space_article{
+      height: 500px;
+    }
+    .skills_front{
+        display: inline-block;
+    }
+    .skills_back{
+        display: inline-block;
+    }
+    .skills_mldl{
+        display: inline-block;
+    }
+    .skills_line{
+        width: 40%;
+        background-color: snow;
+    }
+    .skills_imgs{
+        width: 100px;
+        vertical-align: middle;
+    }
+    .skills_left{
+        display: inline-block;
+    }
+    .skills_right{
+        display: inline-block;
+    }
+    .skills_float{
+        display: inline-block;
+        width: 200px;
+    }
+    .skills_front_img{
+        border-radius: 10px;
+        height: 700px;
+
+    }
+    .skills_back_img{
+        border-radius: 10px;
+        height: 400px;
+
+    }
+    .skills_mldl_img{
+        border-radius: 10px;
+        height: 155px;
+        
+        
+    }
+    .skills_float{
+        display: inline-block;
+        width: 100px;
+    }
+    .project_1{
+      width: 80%;
+      height: 600px;
+      border: 1px solid black;
+      display: inline-block;
+      text-align: left;
+      padding-top: 20px;
+      
+    }
+    .project_1_text{
+      position: absolute; 
+      top: -300;
+    }
+    .project_2{
+      width: 80%;
+      height: 680px;
+      border: 1px solid black;
+      display: inline-block;
+      text-align: left;
+      padding-top: 20px;
+      
+    }
+    .project_space{
+      display: inline-block;
+      width: 140px;
+      height: 450px;
+
+    }
+    .project_space2{
+      display: inline-block;
+      width: 50px;
+      height: 500px;
+
+    }
+    
+    ul,li{list-style:none; background-repeat: no-repeat;}
+    .slide{height:550px;overflow:hidden; width: 400px; display: inline-block;}
+    .slide ul{width:calc(100% * 16);display:flex;animation:slide 32s infinite;}
+    .slide li{width:calc(100% / 16);height:580px; background-size: contain; vertical-align: middle; overflow: auto;}
+    .slide li:nth-child(1){background-image: url(img/game_1.png);}
+    .slide li:nth-child(2){background-image: url(img/game_2.png);}
+    .slide li:nth-child(3){background-image: url(img/game_3.png);}
+    .slide li:nth-child(4){background-image: url(img/game_4.png);}
+    .slide li:nth-child(5){background-image: url(img/game_5.png);}
+    .slide li:nth-child(6){background-image: url(img/game_6.png);}
+    .slide li:nth-child(7){background-image: url(img/game_7.png);}
+    .slide li:nth-child(8){background-image: url(img/game_8.png);}
+    .slide li:nth-child(9){background-image: url(img/game_9.png);}
+    .slide li:nth-child(10){background-image: url(img/game_10.png);}
+    .slide li:nth-child(11){background-image: url(img/game_11.png);}
+    .slide li:nth-child(12){background-image: url(img/game_12.png);}
+    .slide li:nth-child(13){background-image: url(img/game_13.png);}
+    .slide li:nth-child(14){background-image: url(img/game_14.png);}
+    .slide li:nth-child(15){background-image: url(img/game_15.png);}
+    .slide li:nth-child(16){background-image: url(img/game_16.png);}
+    .project_1_text{
+      display: inline-block;
+      height: 600px;
+      width: 40%;
+      
+      text-align: center;
+    }
+
+
+   @keyframes slide {
+     0% {margin-left:0;}
+     6.25%{margin-left: -100%;}
+     12.5% {margin-left:-200%;} 
+     18.75% {margin-left:-300%;} 
+     25% {margin-left:-400%;} 
+     31.25% {margin-left:-500%;}
+     37.5% {margin-left:-600%;}
+     43.75% {margin-left:-700%;}
+     50% {margin-left:-800%;}
+     56.25% {margin-left:-900%;}
+     63.5% {margin-left:-1000%;}
+     69.75% {margin-left:-1100%;}
+     76%{margin-left: -1200%;}
+     82.25%{margin-left: -1300%;}
+     88.5% {margin-left:-1400%;}
+     94.75%{margin-left: -1500%;}
+     100% {margin-left:0%;}
+    }
+
+    .slide2{
+      display: inline-block;
+      height: 600px;
+      
+    }
+    .chat_qr{
+      width: 150px;
+    }
+    .chat_text{
+      color: snow;
+    }
+    html{
+      scroll-behavior: smooth; 
+    }
+
+    .btn_space{
+      display: inline-block;
+      width: 3%;
+    }
+    .btn_div{
+      text-align: center;
+    }
+    .popup_wrap {width:1050px; height:600px; background:#fff; border: solid 1px #666666; position:fixed; top:68%; left:36%; margin:-250px 0 0 -250px; z-index:9999; display:none; padding: 20px;}
+    .popup_wrap2 {width:1050px; height:600px; background:#fff; border: solid 1px #666666; position:fixed; top:25%; left:36%; margin:-250px 0 0 -250px; z-index:9999; display:none; padding: 20px;}
+    #mask {width:100%; height:100%; position:fixed; background:rgba(0,0,0,0.7) repeat; top:0; left:0; z-index:999; display:none;}
+    .popup-cont01 {width:1000px; height:600px; margin:auto; text-align: center; object-fit: contain;}
+    .popup-cont01 button { width: 120px; height: 40px; text-align: center; border: none; font-size: 16px;}
+    .ERD_usecase{
+      width: 100%;
+      height: 90%;
+    }
+
+
+
+    
